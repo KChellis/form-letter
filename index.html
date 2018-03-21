@@ -10,23 +10,26 @@
   </head>
   <body>
     <div class="container">
-      <form id="formOne">
-        <div class="form-group">
-          <label for="nameFirst">First Name:</label>
-          <input id="nameFirst" type="text" class="form-control" placeholder="Enter First Name">
-        </div>
-        <div class="form-group">
-          <label for="nameLast">Last Name:</label>
-          <input id="nameLast" type="text" class="form-control" placeholder="Enter Last Name">
-        </div>
-        <button type="submit" class="btn btn-info">Submit</button>
-      </form>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="nameFirst">First Name:</label>
+            <input id="nameFirst" type="text" class="form-control" placeholder="Enter First Name">
+          </div>
+          <div class="form-group">
+            <label for="nameLast">Last Name:</label>
+            <input id="nameLast" type="text" class="form-control" placeholder="Enter Last Name">
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
 
       <div id="letter">
         <h1>A Letter for <span class="nameFirst"></span> <span class="nameLast"></span></h1>
         <h3>Hello, <span class="nameFirst"></span>!</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <h4>Sincerely, Aaron & Kristen</h4>
+        <button id="return" class="btn btn-info">Return to form</button>
       </div>
     </div>
   </body>
